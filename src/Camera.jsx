@@ -48,7 +48,7 @@ const Camera = () => {
       const formData = new FormData();
       formData.append('file', blob);
 
-      const response = await axios.post('http://plate-vision-api.erdincakgun.com/', formData, {
+      const response = await axios.post('https://plate-vision-api.erdincakgun.com/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
